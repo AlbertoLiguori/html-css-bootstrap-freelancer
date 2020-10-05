@@ -1,0 +1,72 @@
+/*
+
+Larghezza  riga    colonna
+CONTAINER > ROW > COLONNE */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+nav{
+  line-height: 100px;
+}
+
+nav h3{
+  margin:0;
+  line-height: 100px;
+}
+
+nav ul{
+  list-style: none;
+  margin-bottom:0;
+}
+
+nav ul li{
+  display: inline;
+  margin-right: 30px;
+}
+
+.jumbotrone{
+  text-align: center;
+}
+
+.jumbotrone img{
+  height:250px;
+}
+
+.text-image-container{
+  margin-top:50px;
+  margin-bottom: 50px;
+  vertical-align: middle;
+}
+
+/* BACKGROUNDS */
+.bg-blue{
+background-color:#32495B;
+}
+
+.bg-green{
+
+background-color:#1ABC9C;
+}
+
+/* FONT CLASSES */
+.white-text{
+  color:white;
+}
+
+
+/* HELPER CLASSES */
+.border{
+  border:1px solid black;
+  min-height: 50px;
+}
+
+.h_150{
+  height:100px;
+}
+
+.h_650{
+  height:600px;
+}
