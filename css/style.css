@@ -59,6 +59,29 @@ nav ul li{
   margin-bottom:10px;
 }
 
+/* SECTION ABOUT */
+
+.section-about{
+  text-align: center;
+  padding-top:50px;
+  padding-bottom:50px;
+  font-size: 20px;
+}
+
+.section-about p{
+  text-align: left;
+}
+
+.section-about button{
+  border: 1px solid white;
+  background-color: #1ABC9C;
+  border-radius: 5px;
+  font-size: 20px;
+  padding:10px;
+  margin-top:20px;
+}
+
+
 /* BACKGROUNDS */
 .bg-blue{
 background-color:#32495B;
