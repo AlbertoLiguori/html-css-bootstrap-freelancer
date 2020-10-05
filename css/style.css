@@ -8,6 +8,8 @@ CONTAINER > ROW > COLONNE */
   padding:0;
   box-sizing: border-box;
 }
+
+/* NAV */
 nav{
   line-height: 100px;
 }
@@ -27,6 +29,7 @@ nav ul li{
   margin-right: 30px;
 }
 
+/* JUMBOTRONE */
 .jumbotrone{
   text-align: center;
 }
@@ -39,6 +42,21 @@ nav ul li{
   margin-top:50px;
   margin-bottom: 50px;
   vertical-align: middle;
+}
+
+/* SECTION PORTFOLIO */
+
+.section-portfolio .row{
+  text-align: center;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.section-portfolio img{
+  width:100%;
+  border-radius: 20px;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 /* BACKGROUNDS */
@@ -63,10 +81,16 @@ background-color:#1ABC9C;
   min-height: 50px;
 }
 
-.h_150{
+.h_100{
   height:100px;
 }
 
 .h_650{
-  height:600px;
+  height:650px;
+}
+
+/* DEB */
+
+[class*="col-"]{
+  border:1px solid violet;
 }
