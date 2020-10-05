@@ -22,6 +22,7 @@ nav h3{
 nav ul{
   list-style: none;
   margin-bottom:0;
+  text-align: right;
 }
 
 nav ul li{
@@ -116,4 +117,10 @@ background-color:#1ABC9C;
 
 [class*="col-"]{
   border:1px solid violet;
+}
+
+@media screen and (max-width: 991px){
+  .display-none-xs {
+		display: none;
+	}
 }
