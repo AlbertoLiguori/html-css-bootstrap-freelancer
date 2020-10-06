@@ -65,6 +65,34 @@ nav button{
   margin-bottom:10px;
 }
 
+/* HOVER */
+.emc2 > div{
+  position:relative;
+}
+
+.cover-image{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50% , -50%);
+  border-radius: 20px;
+  width:calc(100% - 30px);
+  height:calc(100% - 20px);
+  line-height: calc(100% - 20px);
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color: rgb(26, 188, 156, 0.8);
+  color:white;
+}
+
+a{
+  display:none;
+}
+
+[class*="img-"]:hover a{
+  display:block;
+}
+
 /* SECTION ABOUT */
 .section-about{
   text-align: center;
@@ -151,19 +179,23 @@ nav button{
 .divibar-white{
   border:1.5px solid white;
   height:3px;
-  width:125px;
+  width:135px;
   display: inline-block;
   vertical-align: middle;
   margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right:10px;
 }
 
 .divibar-black{
   border:1.5px solid black;
   height:3px;
-  width:125px;
+  width:135px;
   display: inline-block;
   vertical-align: middle;
   margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right:10px;
 }
 
 
