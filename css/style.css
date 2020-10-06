@@ -87,27 +87,25 @@ nav button{
 }
 
 /* SECTION-FORM*/
+.my_form{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left:0;
+  padding-bottom:50px;
+}
+
 .section-form h2,h3{
   text-align: center;
 }
 
-.formo{
-  padding-left: 0;
-  padding-right: 0;
-  margin-left:0;
-}
-
-.floating-label-form-group{
- border-bottom:2px solid black;
-}
-
-input{
+.section-form input{
   margin-top: 10px;
   height:50px;
 }
 
-textarea{
+.section-form textarea{
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .form-button{
@@ -119,9 +117,37 @@ textarea{
   font-size: 18px;
 }
 
-.section-form .formo [class*="col-"]{
+.section-form form [class*="col-"]{
   border-bottom:2px solid #e9ecef;
 }
+
+/* FOOTER */
+
+.footer-section{
+  text-align: center;
+  color:white;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.circle-border{
+  border:1px solid white;
+  border-radius: 50%;
+  padding:10px;
+  margin:5px;
+}
+
+.footer-section i {
+  width:40px;
+}
+
+.end-of-page{
+  color:white;
+  text-align: center;
+  line-height:75px;
+}
+
+
 
 /* BACKGROUNDS */
 .bg-blue{
@@ -131,6 +157,10 @@ background-color:#32495B;
 .bg-green{
 
 background-color:#1ABC9C;
+}
+
+.bg-dark-blue{
+  background-color: #303E4E;
 }
 
 /* FONT CLASSES */
