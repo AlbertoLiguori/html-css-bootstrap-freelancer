@@ -108,6 +108,11 @@ nav button{
 }
 
 /* SECTION-FORM*/
+
+.section-form{
+  padding-top:50px;
+}
+
 .my_form{
   padding-left: 0;
   padding-right: 0;
@@ -224,6 +229,10 @@ background-color:#1ABC9C;
 
 .h_650{
   height:650px;
+}
+
+.pb-30{
+  padding-bottom:30px;
 }
 
 /* DEB */
