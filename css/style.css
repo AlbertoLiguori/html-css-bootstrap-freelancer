@@ -94,7 +94,7 @@ nav button{
   padding-bottom:50px;
 }
 
-.section-form h2,h3{
+.section-form h2,.about-star{
   text-align: center;
 }
 
@@ -147,6 +147,24 @@ nav button{
   line-height:75px;
 }
 
+/* DIVBAR*/
+.divibar-white{
+  border:1.5px solid white;
+  height:3px;
+  width:125px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+
+.divibar-black{
+  border:1.5px solid black;
+  height:3px;
+  width:125px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
 
 
 /* BACKGROUNDS */
