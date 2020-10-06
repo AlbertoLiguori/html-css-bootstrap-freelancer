@@ -1,13 +1,8 @@
-/*
-
-Larghezza  riga    colonna
-CONTAINER > ROW > COLONNE */
-
-*{
+/* *{
   margin:0;
   padding:0;
   box-sizing: border-box;
-}
+} */
 
 /* NAV */
 nav{
@@ -57,7 +52,6 @@ nav button{
 }
 
 /* SECTION PORTFOLIO */
-
 .section-portfolio .row{
   text-align: center;
   padding-top:50px;
@@ -72,7 +66,6 @@ nav button{
 }
 
 /* SECTION ABOUT */
-
 .section-about{
   text-align: center;
   padding-top:50px;
@@ -93,6 +86,42 @@ nav button{
   margin-top:20px;
 }
 
+/* SECTION-FORM*/
+.section-form h2,h3{
+  text-align: center;
+}
+
+.formo{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left:0;
+}
+
+.floating-label-form-group{
+ border-bottom:2px solid black;
+}
+
+input{
+  margin-top: 10px;
+  height:50px;
+}
+
+textarea{
+  margin-top: 10px;
+}
+
+.form-button{
+  border-radius: 5px;
+  border:0px;
+  color:white;
+  width:75px;
+  height:40px;
+  font-size: 18px;
+}
+
+.section-form .formo [class*="col-"]{
+  border-bottom:2px solid #e9ecef;
+}
 
 /* BACKGROUNDS */
 .bg-blue{
@@ -130,6 +159,7 @@ background-color:#1ABC9C;
   border:1px solid violet;
 }
 
+/* MEDIA QUERIES */
 @media screen and (max-width: 991px){
 
   .display-none-xs {
